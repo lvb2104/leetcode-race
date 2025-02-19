@@ -1,6 +1,5 @@
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
-        i = 0
         for _ in range(len(s)):
             s = s[1:] + s[0]
             if s == goal:

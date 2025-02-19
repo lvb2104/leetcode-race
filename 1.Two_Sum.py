@@ -5,3 +5,4 @@ class Solution:
             if target - nums[i] in dic:
                 return [dic[target - nums[i]], i]
             dic[nums[i]] = i
+        return [-1, -1]
